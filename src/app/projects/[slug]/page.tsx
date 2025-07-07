@@ -2,6 +2,8 @@ import { notFound } from "next/navigation";
 import { funnyProjects } from "@/utils/funny-projects-data";
 import DadJoke from "@/components/projects/dad-joke";
 import MemeGenerator from "@/components/projects/meme-generator";
+import ComplimentGenerator from "@/components/projects/compliment-generator";
+import UselessButton from "@/components/projects/useless-button";
 
 // import DadJoke from "@/projects/dad-joke/DadJoke";
 // import MemeGenerator from "@/projects/meme-generator/MemeGenerator";
@@ -14,6 +16,8 @@ type ProjectMap = {
 const projectComponents: ProjectMap = {
   "dad-joke": DadJoke,
   "meme-generator": MemeGenerator,
+  "compliment-generator": ComplimentGenerator,
+  "useless-button": UselessButton,
   // "magic-8-ball": Magic8Ball,
   // ... map other slugs to their components
 };

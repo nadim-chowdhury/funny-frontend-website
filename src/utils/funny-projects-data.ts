@@ -78,4 +78,6 @@ export const funnyProjects = [
   { title: "Tiny Text Typer", slug: "tiny-text" },
   { title: "Unsolvable Puzzle", slug: "unsolvable-puzzle" },
   { title: "Fake Blue Screen of Death", slug: "bsod-fake" },
+  { title: "Random Compliment Generator", slug: "compliment-generator" },
+  { title: "Useless Button", slug: "useless-button" },
 ];
